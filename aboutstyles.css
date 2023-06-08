@@ -1,8 +1,14 @@
 @charset "utf-8";
 body {
     background-color: #F3F3F3;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    color: #292625;
 }
 header a img {
 	width:30%;
 		height: auto;
+}
+.Wrapper main h2 {
 }
