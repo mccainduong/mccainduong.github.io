@@ -1,18 +1,19 @@
 @charset "utf-8";
 html {
-	font-family: 'Urbanist', sans-serif;
-    background-color: #000000;
+    font-family: 'Urbanist', sans-serif;
 }
 
 body {
-    background-color: #292625;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: rgba(41,38,37,1.00);
+    margin: 0px;
+    padding: 0px;
 }
 .Wrapper header {
     background-color: #292625;
 }
 header a img {
-    width: 30%;
+    width: 300px;
     height: auto;
     margin-left: 40px;
     margin-top: 40px;
@@ -21,6 +22,8 @@ header a img {
 
 .Wrapper header h3 {
     margin-left: 40px;
+    padding-bottom: 12px;
+    color: rgba(255,255,255,1.00);
 }
 
 .Wrapper nav {
@@ -32,7 +35,6 @@ header a img {
 }
 .Wrapper nav a {
     text-decoration: none;
-    color: #FFFFFF;
     font-weight: 600;
 }
 
@@ -63,7 +65,9 @@ header a img {
 
 }
 body footer {
-    font-size: x-small;
-    color: rgba(255,255,255,0.30);
-
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: rgba(0,0,0,0.50);
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
