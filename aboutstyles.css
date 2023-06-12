@@ -42,14 +42,16 @@ header a img {
 
 .Wrapper main {
     margin-left: 40px;
+	margin-right: 40px;
     margin-bottom: 200px;
+
 }
 
 
 
 .Wrapper main h2 {
 	font-family: 'Bebas Neue', sans-serif;
-        font-size: 48px;
+        font-size: 72px;
 
 
 }
@@ -58,11 +60,9 @@ header a img {
 
 }
 .Wrapper main p {
-    margin-right: 0px;
-    margin-left: 40px;
     min-width: 200px;
     max-width: 900px;
-
+ 
 }
 body footer {
     font-size: 10px;
