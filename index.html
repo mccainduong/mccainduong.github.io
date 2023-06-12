@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
 <head>
@@ -7,7 +6,7 @@
 <link rel="icon" type="image/x-icon" href="images/badge02.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Urbanist:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Urbanist:ital,wght@0,300;0,600;1,700&display=swap" rel="stylesheet">
 <style type="text/css">
 /*This is reset, used to remove default styles applied by web browsers. */
 * {
@@ -16,36 +15,29 @@
     padding: 0px;
     text-decoration: none;
 }
-	
 /*background images and animation */	
-html { 
-  background-size: cover;
-  height: 100%; 
-  animation: bg-animation 30s infinite;
+html {
+    background-size: cover;
+    height: 100%;
+    animation: bg-animation 30s infinite;
 }
-
 @keyframes bg-animation {
-  0% {
-    background-image: url("images/bg01.png");
-  }
-  25% {
-    background-image: url("images/bg02.png");
-  }
-
-  50% {
-    background-image: url("images/bg03.png");
-  }
-
-  75% {
-    background-image: url("images/bg04.png");
-  }
-
-
-  100% {
-    background-image: url("images/bg01.png");
-  }
+0% {
+background-image: url("images/bg01.png");
 }
-
+25% {
+background-image: url("images/bg02.png");
+}
+50% {
+background-image: url("images/bg03.png");
+}
+75% {
+background-image: url("images/bg04.png");
+}
+100% {
+background-image: url("images/bg01.png");
+}
+}
 /*Menu bar setting */
 #Wrapper {
     width: 650px;
@@ -64,10 +56,10 @@ footer p {
     letter-spacing: 3px;
 }
 .logomark {
-	width: 100px;
-	height: auto;
-	display: block;
-	margin: 19px auto 20px;
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 19px auto 20px;
 }
 h1 {
     font-weight: 100;
@@ -83,9 +75,9 @@ h2 {
     color: rgba(225,217,207,1.00);
 }
 .Portrait {
-	width: 100px;
-	height: auto;
-	border-radius: 50px;
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
 }
 /*This is Navigation setting */
 	
@@ -109,35 +101,30 @@ h2 {
     display: inline-block;
     color: rgba(0,0,0,0.68);
 }
-	
 .PrimaryNav li:hover {
     background-color: rgba(255,255,255,0.30);
 }
 .PrimaryNav a:hover {
     background-color: rgba(65,67,71,0.30);
 }
-	
 /*This is footer setting */
 footer {
     padding-top: 30px;
     color: #FFFFFF;
 }
-
 /*This is navigation bar section*/
 #Wrapper.open {
-left: 0;
+    left: 0;
 }
-
 #Toggle {
-display: block;
-position: fixed;
-top: 20px;
-right: 20px;
-font-size: 24px;
-cursor: pointer;
-color: rgba(24,1,1,0.77);
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: rgba(24,1,1,0.77);
 }
-
 footer a {
     color: #FFFFFF;
 }
@@ -146,31 +133,27 @@ footer a {
 
 <body>
 <div id="Wrapper">
-<header>
-<img class="logomark"src="images/logo.png" height="163">
-<img class="Portrait" src="images/headshot.png" height="auto">
-<h1>McCain Duong</h1>
-<h2>483E: Computer Assisted Graphic <br> 
-Summer 2023 |TU/Th 1:00-3:45</h2>
-</header>
-<main>
-<nav class="PrimaryNav">
-<ul>
-<li><a href="#">Project 01 </a>| <a href="#">Design Process</a></li>
-<li><a href="#">Project 02 </a>| <a href="#">Design Process</a></li>
-<li><a href="#">Project 03 </a>| <a href="#">Design Process</a></li>
-</ul>
-</nav>
-</main>
-<footer>
-<a href="about.html">About</a> | <a href="skills.html">Skills</a> | <a href="#">Social Media</a>
-<p>&copy;McCain Duong Design 2023</p>
-</footer>
+  <header> <img class="logomark"src="images/logo.png" height="163"> <img class="Portrait" src="images/headshot.png" height="auto">
+    <h1>McCain Duong</h1>
+    <h2>483E: Computer Assisted Graphic <br>
+      Summer 2023 |TU/Th 1:00-3:45</h2>
+  </header>
+  <main>
+    <nav class="PrimaryNav">
+      <ul>
+        <li><a href="#">Project 01 </a>| <a href="#">Design Process</a></li>
+        <li><a href="#">Project 02 </a>| <a href="#">Design Process</a></li>
+        <li><a href="#">Project 03 </a>| <a href="#">Design Process</a></li>
+      </ul>
+    </nav>
+  </main>
+  <footer> <a href="about.html">About</a> | <a href="skills.html">Skills</a> | <a href="#">Social Media</a>
+    <p>&copy;McCain Duong Design 2023</p>
+  </footer>
 </div>
-<!-- this is the taggle link bar -->
-    <a id="Toggle">&#9776;</a>
-    
-    <script>
+<!-- this is the taggle link bar --> 
+<a id="Toggle">&#9776;</a> 
+<script>
       var wrapper = document.getElementById("Wrapper");
       var toggle = document.getElementById("Toggle");
       
@@ -179,5 +162,4 @@ Summer 2023 |TU/Th 1:00-3:45</h2>
       });
     </script>
 </body>
-
 </html>

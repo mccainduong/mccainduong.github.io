@@ -28,11 +28,12 @@ header a img {
     margin-right: 40px;
 }
 .Wrapper nav .currentlink {
-    font-weight: bold;
+    font-weight: 600;
 }
 .Wrapper nav a {
     text-decoration: none;
     color: #FFFFFF;
+    font-weight: 600;
 }
 
 
