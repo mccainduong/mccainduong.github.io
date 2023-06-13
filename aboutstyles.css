@@ -63,3 +63,13 @@ body footer {
   padding-bottom: 10px;
   padding-left: 10px;
 }
+.Wrapper main table {
+    padding-bottom: 40px;
+}
+table tr th {
+    text-align: left;
+}
+
+table tr td {
+    padding-right: 100px;
+}
