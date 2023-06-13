@@ -1,80 +1,65 @@
 @charset "utf-8";
 html {
-    font-family: 'Urbanist', sans-serif;
+  font-family: 'Urbanist', sans-serif;
 }
-
 body {
-    background-color: #FFFFFF;
-    color: rgba(41,38,37,1.00);
-    margin: 0px;
-    padding: 0px;
+  background-color: #FFFFFF;
+  color: rgba(41, 38, 37, 1.00);
+  margin: 0px;
+  padding: 0px;
 }
 .Wrapper header {
-    background-color: #292625;
+  background-color: #292625;
 }
 header a img {
-    width: 300px;
-    height: auto;
-    margin-left: 40px;
-    margin-top: 40px;
-    margin-right: 0px;
+  width: 300px;
+  height: auto;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-right: 0px;
 }
-
 .Wrapper header h3 {
-	font-family: 'Bebas Neue', sans-serif;
-    margin-left: 40px;
-    padding-bottom: 12px;
-    color: rgba(255,255,255,1.00);
-	letter-spacing: 4px;
+  font-family: 'Bebas Neue', sans-serif;
+  margin-left: 40px;
+  padding-bottom: 12px;
+  color: rgba(255, 255, 255, 1.00);
+  letter-spacing: 4px;
 }
-
 .Wrapper nav {
-    margin-left: 40px;
-    margin-right: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .Wrapper nav .currentlink {
-    font-weight: 600;
+  font-weight: 600;
 }
 .Wrapper nav a {
-	color: rgba(41,38,37,1.00);
-    text-decoration: none;
-    font-weight: 600;
+  color: rgba(41, 38, 37, 1.00);
+  text-decoration: none;
+  font-weight: 600;
 }
 .Wrapper nav a:hover {
-	color: rgba(41,38,37,1.00);
-    text-decoration: none;
-    font-weight: 700;
+  color: rgba(41, 38, 37, 1.00);
+  text-decoration: none;
+  font-weight: 700;
 }
-
-
 .Wrapper main {
-    margin-left: 40px;
-	margin-right: 40px;
-    margin-bottom: 200px;
-
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 200px;
 }
-
-
-
 .Wrapper main h2 {
-	font-family: 'Bebas Neue', sans-serif;
-        font-size: 72px;
-
-
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 72px;
 }
-
-.Wrapper main h4 {
-
-}
+.Wrapper main h4 {}
 .Wrapper main p {
-    min-width: 200px;
-    max-width: 900px;
- 
+  min-width: 200px;
+  max-width: 900px;
 }
 body footer {
-    font-size: 10px;
-    letter-spacing: 2px;
-    color: rgba(0,0,0,0.50);
-    padding-bottom: 10px;
-    padding-left: 10px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.50);
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
