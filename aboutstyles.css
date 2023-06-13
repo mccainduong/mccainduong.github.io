@@ -21,9 +21,11 @@ header a img {
 }
 
 .Wrapper header h3 {
+	font-family: 'Bebas Neue', sans-serif;
     margin-left: 40px;
     padding-bottom: 12px;
     color: rgba(255,255,255,1.00);
+	letter-spacing: 4px;
 }
 
 .Wrapper nav {
@@ -34,10 +36,15 @@ header a img {
     font-weight: 600;
 }
 .Wrapper nav a {
+	color: rgba(41,38,37,1.00);
     text-decoration: none;
     font-weight: 600;
 }
-
+.Wrapper nav a:hover {
+	color: rgba(41,38,37,1.00);
+    text-decoration: none;
+    font-weight: 700;
+}
 
 
 .Wrapper main {
