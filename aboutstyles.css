@@ -1,18 +1,19 @@
 @charset "utf-8";
 html {
-  font-family: 'Urbanist', sans-serif;
+    font-family: 'Urbanist', sans-serif;
 }
 body {
   background-color: #FFFFFF;
-  color: rgba(41, 38, 37, 1.00);
+  color: rgba(43,45,66,1.00);
   margin: 0px;
   padding: 0px;
 }
 .Wrapper header {
-  background-color: #292625;
+  background-color: rgba(43,45,66,1.00);
+	
 }
 header a img {
-  width: 300px;
+  width: 170px;
   height: auto;
   margin-left: 40px;
   margin-top: 40px;
@@ -33,12 +34,12 @@ header a img {
   font-weight: 600;
 }
 .Wrapper nav a {
-  color: rgba(41, 38, 37, 1.00);
+  color: rgba(43,45,66,1.00);
   text-decoration: none;
   font-weight: 600;
 }
 .Wrapper nav a:hover {
-  color: rgba(41, 38, 37, 1.00);
+  color: rgba(43,45,66,1.00);
   text-decoration: none;
   font-weight: 700;
 }
@@ -46,15 +47,25 @@ header a img {
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 200px;
+	
 }
 .Wrapper main h2 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 72px;
+	text-align: center;
+
+	
 }
-.Wrapper main h4 {}
+.Wrapper main h4 {
+	text-align: center;
+	
+}
 .Wrapper main p {
-  min-width: 200px;
-  max-width: 900px;
+	min-width: 10%;
+    max-width: 1000px;
+	margin: auto;
+	text-align: center
+    
 }
 body footer {
   font-size: 10px;
