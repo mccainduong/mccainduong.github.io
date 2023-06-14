@@ -1,33 +1,32 @@
 @charset "utf-8";
 /* Side Menu */
 .PrimaryNav {
-    padding: 20px 8px;
-    background-color: rgba(43,45,66,1.00);
+  padding: 20px 8px;
+  background-color: rgba(43, 45, 66, 1.00);
 }
 /* Side Menu Project Links */
 .PrimaryNav ul {
   font-family: 'Urbanist', sans-serif;
 }
 .PrimaryNav li {
-    margin-bottom: 12px;
-    background-color: rgba(141,153,174,1.00);
+  margin-bottom: 12px;
+  background-color: rgba(141, 153, 174, 1.00);
 }
 .PrimaryNav a {
-    padding: 16px;
-    letter-spacing: 3px;
-    display: inline-block;
-    color: rgba(0, 0, 0, 0.68);
+  padding: 16px;
+  letter-spacing: 3px;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.68);
 }
-
 .PrimaryNav a:hover {
-	color: #FFFFFF;
+  color: #FFFFFF;
 }
 /* Side Menu */
 #Wrapper {
   width: 650px;
   left: -690px; /*-690 by default */
   transition: all 0.6s ease-in-out;
-  background-color: rgba(43,45,66,1.00);
+  background-color: rgba(43, 45, 66, 1.00);
   padding: 20px;
   text-align: center;
   position: fixed;
@@ -45,23 +44,25 @@
   border-radius: 50px;
 } /* Side Menu Type */
 h1 {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 48px;
-    letter-spacing: 6px;
-    color: #FFFFFF;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 48px;
+  letter-spacing: 6px;
+  color: #FFFFFF;
 }
 h2 {
-    font-family: 'Urbanist', sans-serif;
-    font-size: 16px;
-    padding-bottom: 20px;
-    font-weight: 300;
-    color: #FFFFFF;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 16px;
+  padding-bottom: 20px;
+  font-weight: 300;
+  color: #FFFFFF;
+  letter-spacing: 2px;
 }
 footer {
   font-family: 'Urbanist', sans-serif;
   padding-top: 30px;
   color: #FFFFFF;
   padding-bottom: 30px;
+	letter-spacing: 2px;
 }
 footer a:hover {
   color: #EF233C;
@@ -69,7 +70,7 @@ footer a:hover {
 }
 footer p {
   font-family: 'Urbanist', sans-serif;
-  color: rgba(255,255,255,0.30);
+  color: rgba(255, 255, 255, 0.30);
   font-weight: 300;
   font-size: 10px;
   letter-spacing: 2px;

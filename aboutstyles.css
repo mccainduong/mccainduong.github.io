@@ -1,16 +1,15 @@
 @charset "utf-8";
 html {
-    font-family: 'Urbanist', sans-serif;
+  font-family: 'Urbanist', sans-serif;
 }
 body {
   background-color: #FFFFFF;
-  color: rgba(43,45,66,1.00);
+  color: rgba(43, 45, 66, 1.00);
   margin: 0px;
   padding: 0px;
 }
 .Wrapper header {
-  background-color: rgba(43,45,66,1.00);
-	
+  background-color: rgba(43, 45, 66, 1.00);
 }
 header a img {
   width: 170px;
@@ -20,54 +19,61 @@ header a img {
   margin-right: 0px;
 }
 .Wrapper header h3 {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Urbanist', sans-serif;
   margin-left: 40px;
   padding-bottom: 12px;
   color: rgba(255, 255, 255, 1.00);
-  letter-spacing: 4px;
+  letter-spacing: 2px;
+  font-weight: 300
 }
 .Wrapper nav {
   margin-left: 40px;
   margin-right: 40px;
-	text-align: center;
+  text-align: center;
+	letter-spacing: 2px;
 }
 .Wrapper nav .currentlink {
   font-weight: 600;
+	
 }
 .Wrapper nav a {
-  color: rgba(43,45,66,1.00);
+  color: rgba(43, 45, 66, 1.00);
   text-decoration: none;
   font-weight: 600;
 }
 .Wrapper nav a:hover {
-    color: #EF233C;
-    text-decoration: none;
-    font-weight: 700;
+  color: #EF233C;
+  text-decoration: none;
 }
 .Wrapper main {
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 200px;
-	
+animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
 }
 .Wrapper main h2 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 72px;
-	text-align: center;
-
-	
+  text-align: center;
 }
 .Wrapper main h4 {
-	text-align: center;
-	
+  text-align: center;
 }
 .Wrapper main p {
-	min-width: 10%;
-    max-width: 1000px;
-	margin: auto;
-    
+  min-width: 10%;
+  max-width: 1000px;
+  margin: auto;
 }
-
 body footer {
   font-size: 10px;
   letter-spacing: 2px;
@@ -76,23 +82,20 @@ body footer {
   padding-left: 10px;
 }
 .Wrapper main img {
-	min-width: 425px;
-	max-width: 45%;
-	margin: auto;
-	display: block;
+  min-width: 425px;
+  max-width: 45%;
+  margin: auto;
+  display: block;
 }
-
 .Wrapper main table {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 table {
-	margin: auto
+  margin: auto
 }
 table tr th {
-    text-align: left;
+  text-align: left;
 }
-
 table tr td {
-	text-align: left;
-		
+  text-align: left;
 }
