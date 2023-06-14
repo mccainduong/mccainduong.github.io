@@ -40,9 +40,9 @@ header a img {
   font-weight: 600;
 }
 .Wrapper nav a:hover {
-  color: rgba(43,45,66,1.00);
-  text-decoration: none;
-  font-weight: 700;
+    color: #EF233C;
+    text-decoration: none;
+    font-weight: 700;
 }
 .Wrapper main {
   margin-left: 40px;
@@ -67,9 +67,7 @@ header a img {
 	margin: auto;
     
 }
-.Wrapper main img {
-	text-align: center;
-}
+
 body footer {
   font-size: 10px;
   letter-spacing: 2px;
@@ -77,6 +75,13 @@ body footer {
   padding-bottom: 10px;
   padding-left: 10px;
 }
+.Wrapper main img {
+	min-width: 425px;
+	max-width: 45%;
+	margin: auto;
+	display: block;
+}
+
 .Wrapper main table {
     padding-bottom: 40px;
 }
