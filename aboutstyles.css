@@ -30,11 +30,10 @@ header a img {
   margin-left: 40px;
   margin-right: 40px;
   text-align: center;
-	letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 .Wrapper nav .currentlink {
   font-weight: 600;
-	
 }
 .Wrapper nav a {
   color: rgba(43, 45, 66, 1.00);
@@ -49,22 +48,25 @@ header a img {
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 200px;
-animation: fadeInAnimation ease 2s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-        @keyframes fadeInAnimation {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .Wrapper main h2 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 72px;
   text-align: center;
+  left: -300;
 }
 .Wrapper main h4 {
   text-align: center;
