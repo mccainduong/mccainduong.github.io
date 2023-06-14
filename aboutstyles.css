@@ -29,6 +29,7 @@ header a img {
 .Wrapper nav {
   margin-left: 40px;
   margin-right: 40px;
+	text-align: center;
 }
 .Wrapper nav .currentlink {
   font-weight: 600;
@@ -64,8 +65,10 @@ header a img {
 	min-width: 10%;
     max-width: 1000px;
 	margin: auto;
-	text-align: center
     
+}
+.Wrapper main img {
+	text-align: center;
 }
 body footer {
   font-size: 10px;
@@ -77,10 +80,14 @@ body footer {
 .Wrapper main table {
     padding-bottom: 40px;
 }
+table {
+	margin: auto
+}
 table tr th {
     text-align: left;
 }
 
 table tr td {
-    padding-right: 100px;
+	text-align: left;
+		
 }
