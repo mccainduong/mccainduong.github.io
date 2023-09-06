@@ -3,13 +3,13 @@ html {
   font-family: 'Urbanist', sans-serif;
 }
 body {
-  background-color: #FFFFFF;
+  background-color: rgba(243,233,220,1.00);
   color: rgba(43, 45, 66, 1.00);
   margin: 0px;
   padding: 0px;
 }
 .Wrapper header {
-  background-color: rgba(43, 45, 66, 1.00);
+  background-color: rgba(200,192,176,1.00);
 }
 header a img {
   width: 170px;
@@ -22,7 +22,7 @@ header a img {
   font-family: 'Urbanist', sans-serif;
   margin-left: 40px;
   padding-bottom: 12px;
-  color: rgba(255, 255, 255, 1.00);
+  color: #3B3C36;
   letter-spacing: 2px;
   font-weight: 300
 }
@@ -36,12 +36,12 @@ header a img {
   font-weight: 600;
 }
 .Wrapper nav a {
-  color: rgba(43, 45, 66, 1.00);
+  color: #3B3C36;
   text-decoration: none;
   font-weight: 600;
 }
 .Wrapper nav a:hover {
-  color: #EF233C;
+  color: #28502E;
   text-decoration: none;
 }
 .Wrapper main {

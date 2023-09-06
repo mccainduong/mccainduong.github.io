@@ -1,16 +1,16 @@
 @charset "utf-8";
 /* Side Menu */
 .PrimaryNav {
-  padding: 20px 8px;
-  background-color: rgba(43, 45, 66, 1.00);
+    padding: 20px 8px;
+    background-color: rgba(243,233,220,1.00);
 }
 /* Side Menu Project Links */
 .PrimaryNav ul {
   font-family: 'Urbanist', sans-serif;
 }
 .PrimaryNav li {
-  margin-bottom: 12px;
-  background-color: rgba(141, 153, 174, 1.00);
+    margin-bottom: 12px;
+    background-color: rgba(200,192,176,1.00);
 }
 .PrimaryNav a {
   padding: 16px;
@@ -19,18 +19,18 @@
   color: rgba(0, 0, 0, 0.68);
 }
 .PrimaryNav a:hover {
-  color: #FFFFFF;
+  color: #28502E;
 }
 /* Side Menu */
 #Wrapper {
-  width: 650px;
-  left: -690px; /*-690 by default */
-  transition: all 0.6s ease-in-out;
-  background-color: rgba(43, 45, 66, 1.00);
-  padding: 20px;
-  text-align: center;
-  position: fixed;
-  height: 100%;
+    width: 650px;
+    left: -690px; /*-690 by default */
+    transition: all 0.6s ease-in-out;
+    background-color: rgba(243,233,220,1.00);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    height: 100%;
 }
 .logomark {
   width: 100px;
@@ -47,25 +47,25 @@ h1 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 48px;
   letter-spacing: 6px;
-  color: #FFFFFF;
+  color: #3B3C36;
 }
 h2 {
   font-family: 'Urbanist', sans-serif;
   font-size: 16px;
   padding-bottom: 20px;
   font-weight: 300;
-  color: #FFFFFF;
+  color: #3B3C36;
   letter-spacing: 2px;
 }
 footer {
   font-family: 'Urbanist', sans-serif;
   padding-top: 30px;
-  color: #FFFFFF;
+  color: #3B3C36;
   padding-bottom: 30px;
 	letter-spacing: 2px;
 }
 footer a:hover {
-  color: #EF233C;
+  color: #28502E;
   text-decoration: none;
 }
 footer p {
